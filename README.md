@@ -76,8 +76,18 @@ chmod +x install.sh
 
 ## 🌀 Istruzioni per lo Spinner in Romano
 
-Il file [`spinners.json`](./spinners.json) contiene tre categorie, ognuna con varianti
-randomizzabili. La struttura è pensata per essere estesa via Pull Request dalla community.
+### File disponibili
+
+| File | Stile | Atmosfera |
+|------|-------|-----------|
+| [`spinners.json`](./spinners.json) | Romanesco quotidiano | Caldo, ironico, da Trastevere |
+| [`spinners-romanzo-criminale.json`](./spinners-romanzo-criminale.json) | Romanesco gangster | Freddo, diretto, anni '70 |
+
+> La struttura è pensata per crescere via Pull Request: aggiungi il tuo tema
+> (Sordi, Totti, Sora Cesira...) e apri una PR!
+
+Il file base [`spinners.json`](./spinners.json) contiene tre categorie, ognuna con varianti
+randomizzabili:
 
 ```json
 {
