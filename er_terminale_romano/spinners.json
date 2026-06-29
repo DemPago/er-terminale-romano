@@ -1,0 +1,27 @@
+{
+  "loading": [
+    "Sto a fatica', spetta n'attimo...",
+    "Me sto a sbatte' pe' te, aspetta un secondo...",
+    "Daje, sto a caricà — nun rompe er cavolo...",
+    "Nun t'impazientì, stamo a lavora' de brutto...",
+    "Sto a girà come una trottola, famme finì...",
+    "Ahò, me stai a stressà — damme n'attimino...",
+    "Tutto sotto controllo, sto a pensà..."
+  ],
+  "success": [
+    "Fatto, capo! Tutto dritto.",
+    "Ce l'hemo fatta! Anvedi che capolavoro.",
+    "Spaccato! Funziona tutto alla perfezione.",
+    "Ammazzalo come funziona bene — tutto ok!",
+    "Er lavoro è finito, mo' puoi annà a pijà er caffè.",
+    "Tutto apposto, nun c'è de che preoccupasse!"
+  ],
+  "fail": [
+    "Inciampai... s'è sfasciato tutto.",
+    "Ahò, s'è rotto qualcosa — rileggi er log.",
+    "Errore bello e rotondo — riprova, dai.",
+    "S'è arenato tutto, porca miseria — vedi che dice er log.",
+    "Bello sfascio. Riprova quanno hai voglia.",
+    "Me so' inceppato come n'roscio — controlla er codice."
+  ]
+}

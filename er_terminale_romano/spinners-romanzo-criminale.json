@@ -1,0 +1,32 @@
+{
+  "_theme": "Romanzo Criminale — ispirato all'atmosfera della Banda della Magliana. Nomi storici, dialetto autentico, zero dialoghi copiati.",
+  "_license": "MIT — i soprannomi usati sono figure storiche di dominio pubblico.",
+
+  "loading": [
+    "Sto a sistemà 'na faccenda — nun rompere er cavolo...",
+    "Aspetta. Er Libanese ha detto de aspettà, e se aspetta.",
+    "Stiamo a lavora'. Tu nun te preoccupà de come.",
+    "Er Freddo sta a pensà — daje piano, ché lui sbaglia mai.",
+    "Nun fa' er curioso. Er lavoro è in corso.",
+    "Stai sereno — ci pensiamo noi. Come sempre.",
+    "Ancora n'attimo. Ognuno fa la sua parte, qui."
+  ],
+
+  "success": [
+    "Fatto. Come sempre. Nessuno come noi.",
+    "Tutto apposto. Roma è nostra.",
+    "Anvedi, funziona. Sapevamo che andava così.",
+    "Er lavoro è pulito. Annatevene a casa.",
+    "Ce l'hemo fatta. Come doveva esse, come aveva detto er Libanese.",
+    "Nessun problema. Pe' noi nun ce n'è mai stato uno vero."
+  ],
+
+  "fail": [
+    "S'è inceppato tutto. Qualcuno ha sbagliato.",
+    "Errore. Questo nun doveva succede — mai.",
+    "S'è rotto. Nun è colpa nostra — qualcuno c'ha tradito.",
+    "Nun è andata. Ce riproveremo — stavolta senza fare scherzi.",
+    "Qualcosa è andato male. Rileggi er log e trovate er colpevole.",
+    "Inceppato. Come quanno ti fidi de quelli sbagliati."
+  ]
+}
