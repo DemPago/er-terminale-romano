@@ -40,6 +40,18 @@ function sleep(ms) {
 }
 
 // ---------------------------------------------------------------------------
+// Helper: pulisce la riga corrente (funziona sia in TTY che fuori)
+// ---------------------------------------------------------------------------
+function clearCurrentLine() {
+  if (typeof process.stdout.clearLine === 'function') {
+    process.stdout.clearLine(0);
+    process.stdout.cursorTo(0);
+  } else {
+    process.stdout.write('\r' + ' '.repeat(80) + '\r');
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Demo senza dipendenze esterne (stampa semplice su console)
 // ---------------------------------------------------------------------------
 async function demoSenzaOra() {
@@ -47,20 +59,14 @@ async function demoSenzaOra() {
 
   process.stdout.write(`⏳ ${pick(spinners.loading)}`);
   await sleep(2000);
-  process.stdout.clearLine(0);
-  process.stdout.cursorTo(0);
-
-  // Simula un successo
+  clearCurrentLine();
   console.log(`✅ ${pick(spinners.success)}`);
 
   await sleep(500);
 
   process.stdout.write(`⏳ ${pick(spinners.loading)}`);
   await sleep(1500);
-  process.stdout.clearLine(0);
-  process.stdout.cursorTo(0);
-
-  // Simula un errore
+  clearCurrentLine();
   console.log(`❌ ${pick(spinners.fail)}`);
 }
 
