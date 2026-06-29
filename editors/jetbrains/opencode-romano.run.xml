@@ -1,0 +1,50 @@
+<component name="ProjectRunConfigurationManager">
+  <!--
+    Er Terminale Romano — JetBrains Run Configuration
+    Valido per: IntelliJ IDEA, PyCharm, WebStorm, GoLand, Rider, ecc.
+
+    INSTALLAZIONE:
+      1. Crea la cartella .idea/runConfigurations/ nella root del tuo progetto
+         (JetBrains la crea automaticamente alla prima apertura)
+      2. Copia questo file lì:
+           cp editors/jetbrains/opencode-romano.run.xml \
+              .idea/runConfigurations/opencode-romano.run.xml
+      3. Riapri il progetto — la config "OpenCode Romano" comparirà nel menu Run
+
+    USO:
+      - Seleziona "OpenCode Romano" dal menu Run (in alto a destra)
+      - Premi ▶ per avviare OpenCode nel terminale integrato
+      - Il modello 'romano' viene usato automaticamente
+
+    PREREQUISITI:
+      - opencode CLI nel PATH (https://opencode.ai)
+      - Modello romano creato: ollama create romano -f ./Modelfile
+  -->
+  <configuration
+    default="false"
+    name="OpenCode Romano"
+    type="ShConfigurationType"
+    factoryName="Shell Script">
+
+    <option name="SCRIPT_TEXT"
+            value="echo '🤌 Avvio OpenCode con er modello Romano...' &amp;&amp; opencode --model ollama/romano" />
+
+    <option name="INDEPENDENT_SCRIPT_PATH"            value="true" />
+    <option name="SCRIPT_PATH"                        value="" />
+    <option name="SCRIPT_OPTIONS"                     value="" />
+    <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+    <option name="SCRIPT_WORKING_DIRECTORY"           value="$PROJECT_DIR$" />
+    <option name="INDEPENDENT_INTERPRETER_PATH"       value="true" />
+    <option name="INTERPRETER_PATH"                   value="/bin/bash" />
+    <option name="INTERPRETER_OPTIONS"                value="" />
+    <option name="EXECUTE_IN_TERMINAL"                value="true" />
+    <option name="INPUT_FILE"                         value="" />
+
+    <envs>
+      <!-- Assicura che Ollama sia raggiungibile -->
+      <env name="OLLAMA_HOST" value="http://localhost:11434" />
+    </envs>
+
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Er Terminale Romano — .gitignore
+# ---------------------------------------------------------------------------
+
+# Backup creati da install.sh
+*.backup.*
+
+# opencode.json locale (ogni dev ha il suo — non committare)
+# Rimuovi il commento se vuoi escluderlo dal repo:
+# opencode.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Editor / IDE
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+.project
+.classpath
+
+# Ollama modelli locali (non hanno senso nel repo)
+*.gguf
+*.bin
+
+# Log
+*.log
+logs/

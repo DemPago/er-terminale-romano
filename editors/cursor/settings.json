@@ -1,0 +1,50 @@
+// =============================================================================
+// Er Terminale Romano — Cursor User Settings
+//
+// ISTRUZIONI:
+// Apri Cursor → Cmd+Shift+P (Mac) / Ctrl+Shift+P (Linux)
+// → "Open User Settings (JSON)" → aggiungi le chiavi qui sotto.
+//
+// PERCORSO MANUALE:
+//   macOS  →  ~/Library/Application Support/Cursor/User/settings.json
+//   Linux  →  ~/.config/Cursor/User/settings.json
+//
+// NON sovrascrivere l'intero file — aggiungi solo le chiavi mancanti.
+// =============================================================================
+{
+  // ---------------------------------------------------------------------------
+  // OpenCode — modello e istruzioni globali
+  // Cursor usa il terminale integrato per OpenCode CLI.
+  // La configurazione a livello di progetto (opencode.json) ha la precedenza.
+  // ---------------------------------------------------------------------------
+  "opencode.model": "ollama/romano",
+  "opencode.instructions": "Rispondi sempre in dialetto romanesco verace come un programmatore senior romano. Vai dritto al punto, usa espressioni tipiche romane ma mantieni sempre la precisione tecnica. Non fa' er coatto: codice pulito e risposte dirette.",
+
+  // ---------------------------------------------------------------------------
+  // Cursor AI nativo — lasciato attivo di default.
+  // OpenCode (via terminale) e Cursor AI coesistono senza conflitti.
+  // Per disabilitare l'autocomplete nativo di Cursor, decommenta:
+  // "editor.inlineSuggest.enabled": false,
+  // ---------------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------
+  // Terminale integrato
+  // ---------------------------------------------------------------------------
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash",
+
+  // ---------------------------------------------------------------------------
+  // Associazioni file del progetto er-terminale-romano
+  // ---------------------------------------------------------------------------
+  "files.associations": {
+    "Modelfile": "plaintext",
+    "spinners.json": "json"
+  },
+
+  // ---------------------------------------------------------------------------
+  // Esclude file di backup generati da install.sh
+  // ---------------------------------------------------------------------------
+  "files.exclude": {
+    "**/*.backup.*": true
+  }
+}
