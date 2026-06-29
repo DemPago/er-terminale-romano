@@ -59,7 +59,7 @@ dritto al punto — con quella simpatica arroganza bonaria romana che tutti cono
 ## 📦 Usarlo nel tuo Progetto
 
 ```bash
-npm install er-terminale-romano
+npm install github:DemPago/er-terminale-romano
 ```
 
 ```javascript
