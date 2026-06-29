@@ -68,25 +68,19 @@ try {
 ### Uso con `halo` (Python)
 
 ```bash
-pip install halo
+pip install git+https://github.com/DemPago/er-terminale-romano.git halo
 ```
 
 ```python
-import random
+from er_terminale_romano import pick, romanesco
 from halo import Halo
-import json, urllib.request
 
-# Scarica i verbi direttamente dal repo
-url = 'https://raw.githubusercontent.com/DemPago/er-terminale-romano/main/spinners.json'
-spinners = json.loads(urllib.request.urlopen(url).read())
-pick = lambda arr: random.choice(arr)
-
-with Halo(text=pick(spinners['loading']), spinner='dots', color='red') as sp:
+with Halo(text=pick(romanesco['loading']), spinner='dots', color='red') as sp:
     try:
         la_vostra_operazione()
-        sp.succeed(pick(spinners['success']))
+        sp.succeed(pick(romanesco['success']))
     except Exception:
-        sp.fail(pick(spinners['fail']))
+        sp.fail(pick(romanesco['fail']))
         raise
 ```
 
