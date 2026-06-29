@@ -1,0 +1,13 @@
+{
+  "name": "er-terminale-romano",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vuoi il tuo dialetto nel terminale e nell'AI senza token extra 🤌",
+  "scripts": {
+    "demo":    "node examples/spinner-example.js",
+    "demo:rc": "node examples/spinner-example.js --rc"
+  },
+  "dependencies": {
+    "ora": "^8.0.1"
+  }
+}
