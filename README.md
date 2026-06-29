@@ -56,7 +56,29 @@ dritto al punto — con quella simpatica arroganza bonaria romana che tutti cono
 
 ---
 
-## 🚀 Installazione in un Colpo Solo
+## 📦 Usarlo nel tuo Progetto
+
+```bash
+npm install er-terminale-romano
+```
+
+```javascript
+import { pick, romanesco, romanzo_criminale } from 'er-terminale-romano';
+import ora from 'ora';
+
+// Tema standard — Trastevere quotidiano
+const spinner = ora(pick(romanesco.loading)).start();
+await laVostraOperazione();
+spinner.succeed(pick(romanesco.success));
+
+// Tema Romanzo Criminale
+const spinner2 = ora(pick(romanzo_criminale.loading)).start();
+spinner2.fail(pick(romanzo_criminale.fail));
+```
+
+---
+
+## 🚀 Installare il Toolkit Completo (Ollama + OpenCode)
 
 ```bash
 git clone https://github.com/TUO_USERNAME/er-terminale-romano.git

@@ -2,10 +2,47 @@
   "name": "er-terminale-romano",
   "version": "1.0.0",
   "type": "module",
-  "description": "Vuoi il tuo dialetto nel terminale e nell'AI senza token extra 🤌",
+  "description": "Spinner verbs in Romanesco dialect — vuoi il tuo dialetto nel terminale senza token extra? 🤌",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "demo":    "node examples/spinner-example.js",
     "demo:rc": "node examples/spinner-example.js --rc"
+  },
+  "files": [
+    "index.js",
+    "spinners.json",
+    "spinners-romanzo-criminale.json"
+  ],
+  "keywords": [
+    "spinner",
+    "romanesco",
+    "roman-dialect",
+    "italian",
+    "dialect",
+    "terminal",
+    "cli",
+    "ora",
+    "loading",
+    "llm",
+    "ollama"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DemPago/er-terminale-romano.git"
+  },
+  "homepage": "https://github.com/DemPago/er-terminale-romano#readme",
+  "bugs": {
+    "url": "https://github.com/DemPago/er-terminale-romano/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "ora": "^8.0.1"
