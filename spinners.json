@@ -23,5 +23,47 @@
     "S'è arenato tutto, porca miseria — vedi che dice er log.",
     "Bello sfascio. Riprova quanno hai voglia.",
     "Me so' inceppato come n'roscio — controlla er codice."
+  ],
+  "installing": [
+    "Sto a installà le dipendenze, daje piano...",
+    "Aspetta, sto a piazzà tutti i pacchetti...",
+    "Le librerie stanno a arrivà, un attimo...",
+    "Sto a mette' a posto tutto, famme fa'...",
+    "I pacchetti stanno a scendè, ancora poco..."
+  ],
+  "building": [
+    "Sto a compilà, nun me stressà...",
+    "Er build è in corso — siediti un secondo...",
+    "Sto a costruì tutto, come un bravo muratore...",
+    "Daje, aspetta che finisco de compilà...",
+    "Sto a mette' insieme i pezzi, quasi fatto..."
+  ],
+  "connecting": [
+    "Me sto a collegà, aspetta n'attimo...",
+    "Sto a bussà ar server, vediamo se risponde...",
+    "Cerco la connessione, nun me rompere...",
+    "Sto a stringe' la mano ar database...",
+    "Sto a trovà er filo — un secondo ancora..."
+  ],
+  "saving": [
+    "Sto a salvà, nun spegnere er computer...",
+    "Sto a mette' tutto al sicuro, aspetta...",
+    "Scrivo su disco, famme finì...",
+    "Sto a salvà er lavoro — quasi fatto...",
+    "Sto a scrivere tutto, un momento solo..."
+  ],
+  "warning": [
+    "Attenzione, ma nun è 'na tragedia...",
+    "Ahò, c'è qualcosa che nun va — ma piano...",
+    "Stai attento a questo qua, eh.",
+    "Nun è un errore, ma guardaci bene.",
+    "Qualcosa de strano, ma si va avanti lo stesso."
+  ],
+  "retrying": [
+    "Riprovo — stavolta va meglio, dai...",
+    "Prima volta nun è andata — nun molla un romano...",
+    "Daje, un altro tentativo...",
+    "Riprovo senza fà storie...",
+    "Insisto, ché so' romano e nun me arrendo."
   ]
 }

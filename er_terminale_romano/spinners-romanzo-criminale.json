@@ -11,7 +11,6 @@
     "Stai sereno — ci pensiamo noi. Come sempre.",
     "Ancora n'attimo. Ognuno fa la sua parte, qui."
   ],
-
   "success": [
     "Fatto. Come sempre. Nessuno come noi.",
     "Tutto apposto. Roma è nostra.",
@@ -20,7 +19,6 @@
     "Ce l'hemo fatta. Come doveva esse, come aveva detto er Libanese.",
     "Nessun problema. Pe' noi nun ce n'è mai stato uno vero."
   ],
-
   "fail": [
     "S'è inceppato tutto. Qualcuno ha sbagliato.",
     "Errore. Questo nun doveva succede — mai.",
@@ -28,5 +26,47 @@
     "Nun è andata. Ce riproveremo — stavolta senza fare scherzi.",
     "Qualcosa è andato male. Rileggi er log e trovate er colpevole.",
     "Inceppato. Come quanno ti fidi de quelli sbagliati."
+  ],
+  "installing": [
+    "Sto a piazzà la roba. Aspetta.",
+    "Tutto in ordine — sto a sistemà i pacchetti.",
+    "I pacchetti stanno arrivando. Come sempre.",
+    "Sto a mette' tutto a posto. Daje.",
+    "Aspetta, sto a organizzà er necessario."
+  ],
+  "building": [
+    "Sto a costruì. Nun fa' domande.",
+    "Er lavoro richiede tempo. Siediti.",
+    "Sto a mette' insieme er piano — aspetta.",
+    "Si costruisce in silenzio. Aspetta.",
+    "Nun se fretta er lavoro serio."
+  ],
+  "connecting": [
+    "Sto a prendere er contatto. Un attimo.",
+    "Me sto a collegà. Nun fa' rumore.",
+    "Er contatto è in corso. Aspetta la risposta.",
+    "Sto a bussà alla porta giusta.",
+    "Aspetta. Non tutti rispondono subito."
+  ],
+  "saving": [
+    "Sto a mette' tutto al sicuro.",
+    "Er lavoro va conservato. Aspetta.",
+    "Sto a salvà come si deve.",
+    "Niente si perde. Sto a scrivere.",
+    "Tutto documentato. Un momento."
+  ],
+  "warning": [
+    "Qualcosa nun torna — tienilo a mente.",
+    "Attenzione. Non è un errore, ma ci si pensa.",
+    "C'è qualcosa de storto qua.",
+    "Stai attento a questo — potrebbe diventare un problema.",
+    "Nun è grave, ma nun è pulito neanche."
+  ],
+  "retrying": [
+    "Prima volta nun è andata. Si riprova.",
+    "Un altro tentativo. Senza fà storie.",
+    "Riprovo. Come se niente fosse.",
+    "La seconda volta va sempre meglio.",
+    "Non si molla al primo intoppo. Mai."
   ]
 }

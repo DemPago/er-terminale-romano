@@ -95,11 +95,28 @@ with Halo(text=pick(romanesco['loading']), spinner='dots', color='red') as sp:
 | `romanesco` | [`spinners.json`](./spinners.json) | Trastevere quotidiano — caldo, ironico |
 | `romanzo_criminale` | [`spinners-romanzo-criminale.json`](./spinners-romanzo-criminale.json) | Banda della Magliana — freddo, diretto |
 
+### Categorie disponibili
+
+| Chiave | Quando usarla |
+|--------|---------------|
+| `loading` | Operazione generica in corso |
+| `success` | Completamento con successo |
+| `fail` | Errore o fallimento |
+| `installing` | Installazione di dipendenze/pacchetti |
+| `building` | Compilazione o build |
+| `connecting` | Connessione a server, DB, rete |
+| `saving` | Scrittura su disco o persistenza |
+| `warning` | Avviso non bloccante |
+| `retrying` | Nuovo tentativo dopo un fallimento |
+
 ```javascript
 import { pick, romanesco, romanzo_criminale } from 'er-terminale-romano';
 
-pick(romanesco.loading)          // "Sto a girà come una trottola..."
-pick(romanzo_criminale.loading)  // "Er Freddo sta a pensà — daje piano."
+pick(romanesco.loading)           // "Sto a girà come una trottola..."
+pick(romanesco.installing)        // "Le librerie stanno a arrivà, un attimo..."
+pick(romanesco.retrying)          // "Insisto, ché so' romano e nun me arrendo."
+pick(romanzo_criminale.loading)   // "Er Freddo sta a pensà — daje piano."
+pick(romanzo_criminale.warning)   // "C'è qualcosa de storto qua."
 ```
 
 > Vuoi aggiungere un tema (Sordi, Totti, napoletano...)? Apri una PR — la struttura è fatta per crescere.
@@ -177,6 +194,8 @@ npm install github:DemPago/er-terminale-romano
 ```
 
 **Available themes:** `romanesco` (everyday Trastevere style) · `romanzo_criminale` (Banda della Magliana-inspired)
+
+**Available categories:** `loading` · `success` · `fail` · `installing` · `building` · `connecting` · `saving` · `warning` · `retrying`
 
 **Pull requests are very welcome!** You don't need to speak Italian.
 Adding a new spinner theme, improving the Modelfile prompt, or fixing a typo
